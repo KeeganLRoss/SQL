@@ -74,7 +74,7 @@ Version control with Git
 Contact Information
 If you have any questions or would like to discuss my projects, feel free to reach out to me:
 
-Email: your-email@example.com
-LinkedIn: Your LinkedIn Profile
-GitHub: Your GitHub Profile
+Email: keeganLross@gmail.com
+LinkedIn: https://www.linkedin.com/in/keeganlross/
+GitHub: https://github.com/KeeganLRoss/SQL
 Thank you for exploring my SQL portfolio!
