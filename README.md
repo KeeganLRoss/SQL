@@ -36,11 +36,6 @@ Working with dates and times
 Writing complex SELECT statements
 SQL Queries:
 
-Finding employees eligible for promotion based on performance.
-Calculating the annual salary for each employee.
-Tracking employee attendance and work hours.
-Teaching Projects
-These projects involve real-world datasets I collected during my teaching sessions. These projects showcase my ability to apply SQL to educational data and extract meaningful insights.
 
 Contact Information
 If you have any questions or would like to discuss my projects, feel free to reach out to me:
