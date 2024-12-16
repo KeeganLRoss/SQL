@@ -42,35 +42,6 @@ Tracking employee attendance and work hours.
 Teaching Projects
 These projects involve real-world datasets I collected during my teaching sessions. These projects showcase my ability to apply SQL to educational data and extract meaningful insights.
 
-Project 1: Student Performance Analysis
-Description: In this project, I analyzed data from a class of students. The goal was to find trends in student performance and determine factors that contributed to high or low scores.
-Key Skills:
-Data cleaning and preprocessing
-Working with multiple tables using JOINs
-Aggregating and grouping data by different parameters
-Using window functions for ranking and partitioning
-SQL Queries:
-Calculating average scores per subject.
-Ranking students based on their total scores.
-Identifying correlations between study hours and grades.
-Project 2: Class Attendance Tracker
-Description: This project involved creating a database to track student attendance over a semester. The project aimed to identify patterns in student attendance and investigate the relationship between attendance and grades.
-Key Skills:
-Data insertion and updates
-Creating relationships between tables (students, classes, attendance)
-Using CASE WHEN statements for conditional logic
-Time-series analysis with SQL
-SQL Queries:
-Calculating attendance percentages for each student.
-Analyzing attendance trends over the course of the semester.
-Identifying students with the lowest attendance.
-Technologies Used
-SQL: Structured Query Language for database management and querying.
-Databases: MySQL, PostgreSQL, SQLite
-Tools:
-DBMSs (Database Management Systems) like MySQL Workbench, pgAdmin, DBeaver
-Data visualization tools (if applicable)
-Version control with Git
 Contact Information
 If you have any questions or would like to discuss my projects, feel free to reach out to me:
 
