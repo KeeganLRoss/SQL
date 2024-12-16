@@ -3,39 +3,43 @@ SQL Portfolio
 
 Welcome to my SQL portfolio! This repository contains various SQL projects I've worked on, showcasing my skills and experience in database management, data analysis, and SQL query writing. The projects are organized into two main categories:
 
-Certification Course Projects: SQL exercises and real-world scenarios from my formal training and certification courses.
-Teaching Projects: SQL projects created from data I gathered while teaching various topics. These projects demonstrate my ability to work with educational datasets and provide insights using SQL.
-Table of Contents
-Certification Course Projects
-Teaching Projects
-Technologies Used
-Contact Information
-Certification Course Projects
-This section contains SQL projects that I completed as part of my certification courses. These projects helped me build a strong foundation in SQL, including data manipulation, query optimization, and working with complex datasets.
-
-Project 1: E-commerce Sales Analysis
-Description: In this project, I worked with an e-commerce database to analyze sales data. The goal was to create SQL queries to find sales trends, product performance, and customer purchase behaviors.
 Key Skills:
-Joins (INNER JOIN, LEFT JOIN)
-Aggregate functions (SUM, AVG)
-GROUP BY, HAVING
-Filtering data with WHERE clauses
+
+Writing complex SQL queries for data retrieval using SELECT statements.
+Using WHERE, JOIN, GROUP BY, and ORDER BY clauses to filter, join, group, and sort data.
+Filtering data with conditional operators (AND, OR, NOT, etc.).
+Aggregate Functions
+
+Using aggregate functions like COUNT(), SUM(), AVG(), MIN(), and MAX() to summarize data.
 Subqueries
-SQL Queries:
-Finding the top-selling products in the last quarter.
-Analyzing the sales by region.
-Identifying customers with the highest average spend.
-Project 2: Employee Database Management
-Description: This project involved working with a fictional company's employee database. I wrote queries to manage employee information, track promotions, and calculate compensation details.
 
-Key Skills:
+Writing subqueries for more complex data retrieval (e.g., nested SELECT queries).
+Data Manipulation
 
-Data insertion, update, and deletion
-Creating and modifying tables
-Working with dates and times
-Writing complex SELECT statements
-SQL Queries:
+INSERT: Adding new records to a table.
+UPDATE: Modifying existing records in a table.
+DELETE: Removing records from a table.
+Joins and Relationships
 
+INNER JOIN: Combining rows from two or more tables based on a related column.
+LEFT JOIN (OUTER JOIN): Fetching all records from one table and matching rows from another table.
+RIGHT JOIN (OUTER JOIN): Fetching all records from the second table and matching rows from the first.
+FULL JOIN: Fetching records from both tables, even when there is no match.
+CROSS JOIN: Creating a Cartesian product of two tables.
+Indexes and Performance Optimization
+
+Writing stored procedures for reusable SQL code.
+Creating user-defined functions to encapsulate logic.
+Data Integrity and Constraints
+
+Using constraints like NOT NULL, UNIQUE, CHECK, and DEFAULT to enforce data integrity.
+Defining relationships between tables with foreign key constraints.
+Views and Virtual Tables
+
+Working with different SQL data types like VARCHAR, INT, DATE, FLOAT, and BOOLEAN.
+Backup and Restore
+
+Understanding basic database backup and restore commands to safeguard data.
 
 Contact Information
 If you have any questions or would like to discuss my projects, feel free to reach out to me:
