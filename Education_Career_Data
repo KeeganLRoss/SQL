@@ -1,0 +1,61 @@
+SELECT * 
+FROM education_career_success;
+
+-- How many Medical graduates are satisfied with their career? --
+SELECT COUNT(*)
+FROM education_career_success
+WHERE field7 = "Medicine"
+AND field11 >= 8;
+
+-- What is the Highest GPA of computer science majors? What were their SAT scores? --
+SELECT field7 AS "Major", 
+		field6 AS "University_GPA", 
+		field5 AS "SAT_Score"
+FROM education_career_success
+WHERE Major = "Computer Science"
+ORDER BY University_GPA DESC;
+
+-- What is the average GPA of computer science majors? --
+SELECT field7 AS "Major", AVG(field6) AS "Average_GPA"
+FROM education_career_success
+WHERE field7 = "Computer Science";
+
+--Which field of study has the highest average GPA, and how many students are in that field?--
+SELECT field7 AS "Major",
+		AVG(field6) AS "Average_GPA",
+		COUNT(*) AS "Student_Count"
+FROM education_career_success
+GROUP BY Major
+ORDER BY Average_GPA DESC;
+
+-- List the top 5 students with the highest SAT scores, along with their GPA and field of study.--
+SELECT field1 AS "Student_ID",
+		field5 AS "SAT_Score",
+		field6 AS "GPA",
+		field7 AS "Major"
+FROM education_career_success
+ORDER BY SAT_Score DESC
+LIMIT 6;
+
+--For each field of study, find the average GPA of students who scored above 1300 on the SAT. Sort the results from highest to lowest average GPA. -- 
+SELECT field7 AS "Major",
+		AVG(field6) AS "AVG_GPA"
+FROM education_career_success
+WHERE field5 > 1300
+GROUP BY Major
+ORDER BY AVG_GPA DESC;
+
+-- Nursing Student SAT_SCORE --
+SELECT field5
+FROM education_career_success
+WHERE field7 = "Arts"
+ORDER BY field5 DESC;
+
+-- Note: No Nursing student scored above 1300 on the SAT --
+
+-- What career has the highest satisfaction rate with their job? --
+SELECT field7 AS "Major",
+		AVG(field15) AS "AVG_Satisfaction"
+FROM education_career_success
+GROUP BY Major
+ORDER BY AVG_Satisfaction DESC;
